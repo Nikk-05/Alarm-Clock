@@ -1,0 +1,71 @@
+*{
+    margin : 0;
+    padding :0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('background.jpg');
+    /* background-color: rgb(74, 197, 231); */
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgb(225, 233, 234);
+    border-radius: 2rem;
+    height: 500px;
+    width: 900px;
+    /* margin: 200px auto; */
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(109, 107, 107);
+    font-size: 5rem;
+    padding: -30px;
+}
+#input-time{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(94, 87, 124);
+    width: 100%;
+    font-size: 180px;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    margin-top:-60px;
+    
+    /* border-color:transparent */
+}
+
+#input-time::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+button{
+    width: 30%;
+}
+#setAlarm{
+  margin-right: 17%;
+  background-color: rgb(36, 218, 84);
+  font-size: 20px;
+  height: 70px;
+  border-radius: 2cm;
+}
+
+#stopAlarm{
+    float: inline-end;
+    background-color:crimson;
+    color: white;
+    font-size: 20px;
+    height: 70px;
+    border-radius: 2cm;
+  }
